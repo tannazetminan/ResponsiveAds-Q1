@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 - Tannaz Etminan</title>
+</head>
+
+<body>
+    <h1>Pokemon Filter Answers</h1>
+    <div id="output">
+        <p><strong>Answer 1:</strong> <span id="answer1"></span></p>
+        <p><strong>Answer 2 (OR):</strong> <span id="answer2Or"></span></p>
+        <p><strong>Answer 2 (AND):</strong> <span id="answer2And"></span></p>
+    </div>
+
+
+    <!-- first sokution to do the question-->
+    <script src="answer2.js"></script>
+
+
+    <!-- second solution to do the question-->
+
+    <!-- Inline script containing JSON data -->
+    <script id="pokes" type="application/json">
+    [
+        {"name": "bulbasaur", "types": ["grass", "poison"]},
+        {"name": "ivysaur", "types": ["grass", "poison"]},
+        {"name": "venusaur", "types": ["grass", "poison"]},
+        {"name": "charmander", "types": ["fire"]},
+        {"name": "charmeleon", "types": ["fire"]},
+        {"name": "charizard", "types": ["fire", "flying"]},
+        {"name": "squirtle", "types": ["water"]},
+        {"name": "wartortle", "types": ["water"]},
+        {"name": "blastoise", "types": ["water"]},
+        {"name": "caterpie", "types": ["bug"]},
+        {"name": "metapod", "types": ["bug"]},
+        {"name": "butterfree", "types": ["bug", "flying"]},
+        {"name": "weedle", "types": ["bug", "poison"]},
+        {"name": "kakuna", "types": ["bug", "poison"]},
+        {"name": "beedrill", "types": ["bug", "poison"]},
+        {"name": "pidgey", "types": ["normal", "flying"]},
+        {"name": "pidgeotto", "types": ["normal", "flying"]},
+        {"name": "pidgeot", "types": ["normal", "flying"]},
+        {"name": "rattata", "types": ["normal"]},
+        {"name": "raticate", "types": ["normal"]},
+        {"name": "spearow", "types": ["normal", "flying"]},
+        {"name": "fearow", "types": ["normal", "flying"]},
+        {"name": "ekans", "types": ["poison"]},
+        {"name": "arbok", "types": ["poison"]},
+        {"name": "pikachu", "types": ["electric"]},
+        {"name": "raichu", "types": ["electric"]},
+        {"name": "sandshrew", "types": ["ground"]},
+        {"name": "sandslash", "types": ["ground"]},
+        {"name": "nidoran-f", "types": ["poison"]},
+        {"name": "nidorina", "types": ["poison"]},
+        {"name": "nidoqueen", "types": ["poison", "ground"]},
+        {"name": "nidoran-m", "types": ["poison"]},
+        {"name": "nidorino", "types": ["poison"]},
+        {"name": "nidoking", "types": ["poison", "ground"]},
+        {"name": "clefairy", "types": ["fairy"]},
+        {"name": "clefable", "types": ["fairy"]},
+        {"name": "vulpix", "types": ["fire"]},
+        {"name": "ninetales", "types": ["fire"]},
+        {"name": "jigglypuff", "types": ["normal", "fairy"]},
+        {"name": "wigglytuff", "types": ["normal", "fairy"]},
+        {"name": "zubat", "types": ["poison", "flying"]},
+        {"name": "golbat", "types": ["poison", "flying"]},
+        {"name": "oddish", "types": ["grass", "poison"]},
+        {"name": "gloom", "types": ["grass", "poison"]},
+        {"name": "vileplume", "types": ["grass", "poison"]},
+        {"name": "paras", "types": ["bug", "grass"]},
+        {"name": "parasect", "types": ["bug", "grass"]},
+        {"name": "venonat", "types": ["bug", "poison"]},
+        {"name": "venomoth", "types": ["bug", "poison"]},
+        {"name": "diglett", "types": ["ground"]}
+    ]
+    </script>
+    
+
+    <script src="answer.js"></script>
+
+
+</body>
+
+</html>
